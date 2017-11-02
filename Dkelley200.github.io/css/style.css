@@ -1,0 +1,89 @@
+
+
+.nav-pills {
+  font-size: 1.3em;
+   font-style: italic;
+   margin-bottom:10%;
+   }
+
+body {
+  background-color: black;
+  font-family: Georgia, Serif;
+  color: white;
+  font-style: italic;
+   
+    }
+
+h1 {
+  padding: 0;
+  margin-top: 10px;
+  font-size: 3.0em;
+    
+}
+.pageOne {
+background: url("https://images.unsplash.com/photo-1508830524289-0adcbe822b40?auto=format&fit=crop&w=1011&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");  
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top;
+height: 900px;
+}
+
+.btn-default {
+  background-color: darkgrey;
+  border-color: black;
+  font-family: Georgia;
+  color: black;
+  font-size: 1.3em;
+  font-style:Italic;
+  
+}
+
+.PageTwo {
+ margin-top: 2px;
+ background:url("https://images.unsplash.com/photo-1455218873509-8097305ee378?auto=format&fit=crop&w=634&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D")  ;
+ background-position: right;
+ background-repeat: no-repeat;
+ Height: 900px;
+}
+
+h2 {
+  margin-top: 75px;
+  font-size: 2.0em;
+  color:white;
+}
+
+p {
+  margin-top: 150px;
+  font-size: 1.7em;
+  color:white;
+ }
+
+.PageThree  {
+	background:url("https://images.unsplash.com/photo-1508643315917-6688bbbb4cb5?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  margin-top: 2px;
+
+ background-position: center;
+ Height: 900px;
+}
+
+.PageFour  {
+  margin-top: 2px;
+ background:grey ;
+ background-position: right;
+ Height: 900px;
+}
+
+.container {
+	width: 400px;
+	
+	
+}
+
+.txt {
+	width: 400px;
+}
+
+.link {
+	
+	margin-bottom: 5%;
+}
