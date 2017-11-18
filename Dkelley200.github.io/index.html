@@ -7,17 +7,21 @@
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
 
-      <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
  <link href="https://fonts.googleapis.com/css? family=Georgia" rel="spreadsheet"type="text/css">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<body>
 <div id='home'>
 	<div class="navbar-header">
+	   <div>
 			<div class = "pageOne text-center">
 				  <ul class = "nav nav-pills navbar-inline">
 					<li class="nav-item">
-					  <a class="nav-link"  href="#home">Dianna Kelley</a>
+					  <a class="nav-link "  href="#home">Dianna Kelley</a>
 					</li>
 					<li >
 					  <a class="nav-link" href="#about">About Me</a><br>
@@ -36,13 +40,15 @@
 							<h3> Coding a new world</h3>
 					 </div>
 					<div class = "btnList text-center">
-					   <a class = "btn btn-default" href="#">Twitter</a>
+					   
 					   <a class = "btn btn-default" href="#">GitHub</a>
 					   <a class = "btn btn-default" href="#">LinkedIn</a>
 					   <a class = "btn btn-default" href="#">Facebook</a>
 					 </div>
 			  </div>
 	  </div>
+</div>	  
+	  
 
    <div id="about">
    <div class = "PageTwo">
@@ -50,12 +56,9 @@
        <div class ="col-md-6">
          <h2> Dianna Kelley</h2>
           <p>
-       there is a lot of stuff about me here.
-      there is a lot of stuff about me here.
-               there is a lot of stuff about me here.
-      there is a lot of stuff about me here.
-               there is a lot of stuff about me here.
-      there is a lot of stuff about me here.
+      An Interview with Dianna Kelley....
+Asked to describe herself, Dianna Kelley, BRM Systems Administrator smiles, eyes sparkling, and says, “I love the details of technology and maintaining our data systems but after work I ride motorcycles!”  If the details of programming and the freedom of the road seem like an odd contrast one has only to talk with Dianna to discover a woman with a wide variety of interests and life experiences.  An early work experience taught her to anticipate opportunities, a quality she continues to develop.  Dianna’s nearly 20 year career path at BRM has allowed her to anticipate change and grow with it as the company grew.
+“I’m mechanically minded and naturally gravitated to the new technology,” she said. She was the sole tech support for the company, physically installing equipment, pulling lines, maintaining software and helping other users.  “I was running full speed everyday.  After our IT Director came on board to manage the computer systems I became part of our new Information Technology department.  My job now focuses on making sure that our software gives us an accurate picture of our business development.”
             </p>
           </div>
            <div class ="col-md-6">
@@ -65,20 +68,39 @@
   </div>
   
  <div id="portfolio">
-   <div class = "PageThree">
-		 <div class ="row">
-			   <div class ="col-md-6">
-				 <h2> Dianna Kelley</h2>
-				  <p>
-			  This is stuff about what I have done
-					This is stuff about what I have done
-					This is stuff about what I have done
-					This is stuff about what I have done
-					This is stuff about what I have done
-					</p>
-				</div>
-				
-		   </div>
+    <div class = "PageThree">
+		<div class ="row">
+			<div class ="col-md-6">
+				 <h1> Dianna Kelley</h2>
+			    <div class = "container" >
+				 <h3> Some Titles I have earned</h3><br><br>
+					<div class=" nav container">
+						  <div class="row justify-content-center">
+						  
+								<div id="job" class="col-md-6">  
+								  VP Finance
+								</div>
+								<div id="job" class="col-md-2">
+								  Office Manager
+								</div>
+								<div id="job" class="col-md-5">
+								  EDI Specialist
+								</div>
+						   </div><br><br><br>
+						   <div class="row justify-content-center">
+								<div id="job" class="col-md-6">
+								  Data Integrity Engineer
+								</div>
+								<div id="job" class="col-md-2">
+								   Senior Systems Administrator
+								</div>
+								<div id="job" class="col-md-5">
+								   Data Analyst
+								</div>
+							</div>
+					</div>
+			</div>
+		</div>
     </div>
  </div> 
 	
@@ -89,15 +111,24 @@
 						 <h2> Dianna Kelley</h2>
 								<div class="container">
 									<div class="login">
-										<div class="form_header">Contact me:</div>
-												<form>
-													<input type="text" class="txt" id="name" placeholder="Name"></input><br>
-													<input type="text" class="txt" id="email" placeholder="Email Address"></input><br>
-													<input type="text" class="txt" id="comments" placeholder="Comments"></input><br>
-													<input type="text" class="txt" id="comments1" placeholder=""></input><br>
-													
+										<div class="container">
+												<div class="login">
+													<div class="form_header">Email me:</div>
+													<form method="post" action="mailto:dianna.kelley@gmail.com">
+														<input type="text" class="txt" id="uname" placeholder="Your Name"></input><br>
+														<input type="text" class="txt" id="uname" placeholder="Email"><br>
+														<input type="text" class="txt" id="Phone" placeholder="555-555-5555"></input><br>
+														
+														
+														<textarea name="comment" rows="10" cols="47" id="comment" placeholder="Your Message"></textarea>
+
+														<br>
+														<button type="submit" class="btn">Send</button>
+														
+														<button type="reset" class="btn" value="reset" >Reset</button>
+												</div>
+											</div>
 													<br>
-													<button type="button" class="btn">Send</button>
 													<br>
 													<br>
 													<br>
@@ -108,9 +139,7 @@
 													<br>
 												</form>
 										</div>
-										<div id="home">
-											<button type="button"  class="link">Home</button>
-										</div>
+										 
 									</div>
 								</div>
 						</div>

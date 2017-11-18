@@ -26,6 +26,7 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: top;
 height: 900px;
+
 }
 
 .btn-default {
@@ -43,19 +44,21 @@ height: 900px;
  background:url("https://images.unsplash.com/photo-1455218873509-8097305ee378?auto=format&fit=crop&w=634&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D")  ;
  background-position: right;
  background-repeat: no-repeat;
- Height: 900px;
+ Height: 1000px;
+ padding: 50px;
 }
 
 h2 {
-  margin-top: 75px;
+  margin-top: 50px;
   font-size: 2.0em;
   color:white;
 }
 
 p {
-  margin-top: 150px;
-  font-size: 1.7em;
-  color:white;
+  margin-top: 45px;
+  font-size: 1.5em;
+ color:#CFD1D4;
+  width: 650px;
  }
 
 .PageThree  {
@@ -63,24 +66,48 @@ p {
   margin-top: 2px;
 
  background-position: center;
- Height: 900px;
+ Height: 1000px;
+  padding: 50px;
 }
 
+#job{
+	font-size:1.2em;
+	
+}
+
+#job:hover{
+	font-size:1.3em;
+	color:#0000b3;
+}
 .PageFour  {
   margin-top: 2px;
  background:grey ;
  background-position: right;
  Height: 900px;
+  padding: 50px;
 }
 
 .container {
 	width: 400px;
 	
-	
 }
+
 
 .txt {
 	width: 400px;
+	
+
+}
+
+
+.comment {
+	width: 400px; 
+	padding: 10px; 
+	height: 50px; 
+    display: block; 
+	font-family:Sans-serif; 
+	font-size:1.2em;
+
 }
 
 .link {
